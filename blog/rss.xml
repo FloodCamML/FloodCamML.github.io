@@ -4,6 +4,7 @@
         <title>Flood CamML Blog</title>
         <link>https://FloodCamML.github.io/blog</link>
         <description>Flood CamML Blog</description>
+<<<<<<< Updated upstream
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -27,6 +28,17 @@
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+=======
+        <lastBuildDate>Thu, 15 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Meet the NC12 Flood CamML]]></title>
+            <link>https://FloodCamML.github.io/blog/nc12</link>
+            <guid>nc12</guid>
+            <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meet the NC12 Flood CamML!]]></description>
+>>>>>>> Stashed changes
         </item>
     </channel>
 </rss>
