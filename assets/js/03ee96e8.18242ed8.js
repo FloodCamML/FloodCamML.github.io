@@ -1,1 +1,0 @@
-(self.webpackChunkfloodcamml=self.webpackChunkfloodcamml||[]).push([[526],{5616:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"app","name":"app","count":1,"permalink":"/blog/tags/app"}')}}]);
