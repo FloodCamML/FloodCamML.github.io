@@ -27,3 +27,125 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.custom-button{
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--ifm-button-background-color);
+  border-color: var(--ifm-button-border-color);
+  border-radius: var(--ifm-button-border-radius);
+  border-style: solid;
+  border-width: var(--ifm-button-border-width);
+  color: var(--ifm-button-color);
+  margin: 15px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: calc(0.875rem * var(--ifm-button-size-multiplier));
+  font-weight: var(--ifm-button-font-weight);
+  line-height: 1.5;
+  padding: calc(
+    var(--ifm-button-padding-vertical) * var(--ifm-button-size-multiplier)
+  )
+  calc(
+    var(--ifm-button-padding-horizontal) * var(--ifm-button-size-multiplier)
+  );
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition-property: color, background, border-color;
+  transition-duration: var(--ifm-button-transition-duration);
+  transition-timing-function: var(--ifm-transition-timing-default);
+
+}
+
+.custom-button:hover {
+  color: var(--ifm-button-color);
+  text-decoration: none;
+}
+
+.custom-button-div {
+  justify-content: flex-start;
+
+}
+
+.hero-span {
+  height:220px;
+}
+
+.custom-hero-large {
+  background-color: #33669A;
+  padding: 48px;
+  display: block;
+}
+
+.custom-hero-inner {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  display: block;
+  word-wrap: normal;
+}
+
+.hero-project-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 0px 0px 0px 15px;
+  display:block;
+  word-wrap: normal;
+  /* text-align: center; */
+}
+
+.hero-project-tagline {
+  color: #fff;
+  font-size: 30px;
+  max-width:600px;
+  margin: 0px 0px 0px 15px;
+  word-wrap: normal;
+  /* text-align:center; */
+}
+
+.hero-logo {
+  animation-duration: 2s;
+  animation-name: c;
+  float: right;
+  margin-top: 20px;
+  padding: 0 20px 20px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-hero-inner {
+    text-align: center;
+  }
+
+.hero-logo {
+    display: block;
+    float: none;
+}
+
+.hero-project-title {
+  font-size: 36px;
+  margin: 0px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.hero-project-tagline {
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+.custom-button-div {
+  justify-content: center;
+  text-align: center;
+}
+}

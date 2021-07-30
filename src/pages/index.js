@@ -9,16 +9,25 @@ import HomepageFeatures from "../components/HomepageFeatures";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+    <header className="custom-hero-large">
+      <div className="custom-hero-inner">
+        <h1 className="hero-project-title">
+          <img src = "./static/img/logo.svg" className = "hero-logo"></img>
+            {siteConfig.title}
+        </h1>
+        <p className="hero-project-tagline">{siteConfig.tagline}</p>
+        <div className="custom-button-div">
           <Link
-            className="button button--secondary button--lg"
+            className="custom-button button--primary button--lg"
             to="/docs/intro"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started  
+          </Link>
+          <Link
+            className="custom-button button--primary button--lg"
+            to="/about"
+          >
+            Learn More 
           </Link>
         </div>
       </div>
@@ -30,8 +39,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`Welcome!`}
+      description="Using machine learning to automatically detect flooding"
     >
       <HomepageHeader />
       <main>

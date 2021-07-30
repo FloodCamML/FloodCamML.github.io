@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Flood CamML",
-  tagline: "Using machine learning (ML) to automatically detect flooding",
+  tagline: "Using machine learning (ML) to automatically detect flooding with webcams",
   url: "https://FloodCamML.github.io",
   baseUrl: "/",
   // trailingSlash: false,
@@ -16,6 +16,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: "Flood CamML",
+      hideOnScroll: true,
       logo: {
         alt: "My Site Logo!",
         src: "img/logo.svg"
@@ -29,7 +30,7 @@ module.exports = {
         },
         { to: "/about", label: "About", position: "left" },
         {
-          href: "https://github.com/FloodCamML",
+          href: "https://floodcamml.org",
           label: "NC-12 app",
           position: "right"
         },
@@ -38,7 +39,7 @@ module.exports = {
           href: "https://github.com/FloodCamML",
           label: "GitHub",
           position: "right"
-        }
+        },
       ]
     },
     footer: {
@@ -76,11 +77,12 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Flood CamML, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Flood CamML. Built with Docusaurus.`
     },
     prism: {
       theme: lightCodeTheme,
-      darkTheme: darkCodeTheme
+      darkTheme: darkCodeTheme,
+      additionalLanguages: ['r']
     }
   },
   presets: [
@@ -90,7 +92,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          editUrl: "https://github.com/FloodCamML"
         },
         blog: {
           showReadingTime: true,
