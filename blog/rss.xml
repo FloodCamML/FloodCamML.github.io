@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Flood CamML Blog</title>
+        <link>https://FloodCamML.github.io/blog</link>
+        <description>Flood CamML Blog</description>
+        <lastBuildDate>Thu, 15 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Meet the NC12 Flood CamML]]></title>
+            <link>https://FloodCamML.github.io/blog/nc12</link>
+            <guid>nc12</guid>
+            <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meet the NC12 Flood CamML!]]></description>
+        </item>
+    </channel>
+</rss>

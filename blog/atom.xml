@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://FloodCamML.github.io/blog</id>
+    <title>Flood CamML Blog</title>
+    <updated>2021-07-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://FloodCamML.github.io/blog"/>
+    <subtitle>Flood CamML Blog</subtitle>
+    <icon>https://FloodCamML.github.io/img/docusaurus.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Meet the NC12 Flood CamML]]></title>
+        <id>nc12</id>
+        <link href="https://FloodCamML.github.io/blog/nc12"/>
+        <updated>2021-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet the NC12 Flood CamML!]]></summary>
+    </entry>
+</feed>
