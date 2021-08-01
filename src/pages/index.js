@@ -12,7 +12,7 @@ function HomepageHeader() {
     <header className="custom-hero-large">
       <div className="custom-hero-inner">
         <h1 className="hero-project-title">
-          <img src = "./static/img/logo.svg" className = "hero-logo"></img>
+          <img src = "img/logo.svg" className = "hero-logo"></img>
             {siteConfig.title}
         </h1>
         <p className="hero-project-tagline">{siteConfig.tagline}</p>
