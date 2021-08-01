@@ -3,18 +3,34 @@ sidebar_position: 5
 ---
 # Customizing the app
 
+## About
+
 The CamML app contains 4 tabs (including the optional **Model** tab that describes the model used). These four tabs are:
-- **Cameras**
-- **About**
+- **Cameras** (home page): Displays webcam imagery, directions, buttons for labelling, and ML labels (optional).
+- **About the project**: Description of the project.
+- **The model**: Details regarding the training and performance of the model.
+- **Contact us**: Contact information, such as a project email or twitter handle.
 
 
 The CamML app was built to be easily customizable with very little coding. We did this by creating a few **.csv** files and **.md** files that contain project info and text to be displayed in the app. 
 
 The files live in two folders within the CamML template directory: `ui` and `text`. 
 
+## Schematic
+
+Below is a rough schematic of the CamML app that shows the location of some UI components. Both code templates use the same layout. In practice, the CamML app organizes pictures using two columns (rather than the one column shown for simplicity).
+
+### Desktop
+
+![Picture of CamML app schematic](/img/flood-camml-form-01.svg)
+
+### Mobile
+
+![Picture of CamML app schematic](/img/camml-flood-form-phone-01.svg)
+
 ## ui folder
 
-The `ui` folder contains **3 .csv** files control many aspects of the user interface for the the overall app. These files and descriptions of their contents are below.
+The `/ui` folder contains **3 .csv** files control many aspects of the user interface for the the overall app. These files and descriptions of their contents are below.
 
 ### `project_info.csv`
 
@@ -63,7 +79,7 @@ This file contains information for the badges that identify each label from the 
 
 ## text folder
 
-The `text` folder contains **.md** files that populate the more text-heavy parts of the app. The files are:
+The `/text` folder contains **.md** files that populate the more text-heavy parts of the app. The files are:
 - `about_project.md` : Content for the **About** tab.
 - `about_ML.md`: Content for the **Model** tab.
 - `cameras.md`: Sidebar content for the main **Cameras** tab.

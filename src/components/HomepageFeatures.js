@@ -4,32 +4,29 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "Flood CamML",
-    Svg: require("../../static/img/camml_flood_computer-01.svg").default,
+    title: "Image Labelling",
+    Svg: require("../../static/img/camml_flood_text-01.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Crowd-source your webcam image labelling with a CamML app. Record user responses for free using Google Sheets and Drive.
       </>
     )
   },
   {
-    title: "Focus on What Matters",
+    title: "Deploying a ML model",
     Svg: require("../../static/img/camml_flood_computer-01.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Put your image classification model - or our flood detection model - in the app to classify webcam images.
       </>
     )
   },
   {
-    title: "Powered by React",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    title: "Simple templates",
+    Svg: require("../../static/img/flood-camml-form-01.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Use our templates and tutorial to easily customize your app by editing <code>.csv</code> and <code>.md</code> files. 
       </>
     )
   }
