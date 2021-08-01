@@ -12,4 +12,4 @@ Here you will find a **tutorial to create your own CamML app** and more **detail
 
 ## Example
 
-To see a CamML in action, see the [NC12 Flood CamML](https://floodcamml.org) and its [associated blog post](/blog/nc12)
+To see a CamML in action, see the [NC12 Flood CamML](https://nc12.floodcamml.org) and its [associated blog post](/blog/nc12)

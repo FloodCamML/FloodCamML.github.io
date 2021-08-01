@@ -30,7 +30,7 @@ module.exports = {
         },
         { to: "/about", label: "About", position: "left" },
         {
-          href: "https://floodcamml.org",
+          href: "https://nc12.floodcamml.org",
           label: "NC-12 app",
           position: "right"
         },
