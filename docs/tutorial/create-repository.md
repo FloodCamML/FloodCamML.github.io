@@ -10,19 +10,8 @@ This page will walk through how to create a repository using a Flood CamML code 
 GitHub provides a special type of repository called a "code template" that allows users to easily copy the current state of a respository.
 
 The Flood CamML project offers **two** code templates that vary based on the deployment strategy:
-- [Google Cloud Run](https://github.com/FloodCamML/FloodCamML_cloudrun) code template
-- [shinyapps.io](https://github.com/FloodCamML/FloodCamML_shinyapps) code template
-
-## Picking a template
-
-The Google Cloud Run template uses Docker to containerize the app, so this option is a bit more involved.
-
-If you're new to R or coding in general, try the `shinyapps.io` template - it doesn't use docker and can be deployed directly from RStudio. 
-
-
-:::caution Other web services
-Because the Google Cloud Run template uses a Docker container, it should work on other web services that host containers. We have only tested on Google Cloud Run, though, so no promises! 
-:::
+- Google Cloud Run [code template](https://github.com/FloodCamML/FloodCamML_cloudrun)
+- shinyapps.io [code template](https://github.com/FloodCamML/FloodCamML_shinyapps)
 
 ## Create a repository
 

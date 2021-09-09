@@ -85,3 +85,4 @@ The `/text` folder contains **.md** files that populate the more text-heavy part
 - `cameras.md`: Sidebar content for the main **Cameras** tab.
 - `contact_us.md`: Content for the **Contact Us** tab.
 - `landing_text.md`: Text for the landing page popup that is shown on load.
+- `site_info.md`: Site description text that will show above the images.
